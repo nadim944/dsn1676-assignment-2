@@ -65,6 +65,8 @@ html {
     text-decoration: none;
     color: white;
     transition: all 1000ms ease-in-out;
+    margin-left: 1rem;
+    margin-top: 1rem;
     
 }
 
@@ -91,6 +93,8 @@ html {
     text-decoration: none;
     color: white;
     transition: all 1000ms ease-in-out;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 .middle {
