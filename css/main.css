@@ -48,56 +48,52 @@ html {
 }
 
 .clock-face:target .hand-hour {
-   transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .clock-face:target .hand-minute {
-    transform: rotate(4320deg);
+  transform: rotate(4320deg);
 }
 
 .forwards {
-    width: 7em;
-    text-align: center;
-    background-color: green;  
-    line-height: 7em;
-     border-radius: 50%;
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    transition: all 1000ms ease-in-out;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    
+  width: 7em;
+  text-align: center;
+  background-color: green;  
+  line-height: 7em;
+  border-radius: 50%;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: all 1000ms ease-in-out;
+  margin-left: 1rem;
+  margin-top: 1rem;   
 }
 
 .forwards:hover {
-    background-color: white;
-    color: grey;
-    opacity: 1;
+  background-color: white;
+  color: grey;
+  opacity: 1;
 }
 
 .backwards:hover {
-    background-color: white;
-    color: grey;
+  background-color: white;
+  color: grey;
 }
 
-
-
 .backwards {
-    width: 7em;
-    text-align: center;
-    background-color: red;
-    line-height: 7em;
-    border-radius: 50%;
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    transition: all 1000ms ease-in-out;
-    margin-left: 1rem;
-    margin-top: 1rem;
+  width: 7em;
+  text-align: center;
+  background-color: red;
+  line-height: 7em;
+  border-radius: 50%;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: all 1000ms ease-in-out;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 .middle {
-    text-align: center;
-
+  text-align: center;
 }
