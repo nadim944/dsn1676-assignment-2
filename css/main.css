@@ -56,20 +56,44 @@ html {
 }
 
 .forwards {
-    width: 3em;
+    width: 7em;
     text-align: center;
     background-color: green;  
     line-height: 7em;
      border-radius: 50%;
     display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: all 1000ms ease-in-out;
+    
 }
 
+.forwards:hover {
+    background-color: white;
+    color: grey;
+    opacity: 1;
+}
+
+.backwards:hover {
+    background-color: white;
+    color: grey;
+}
+
+
+
 .backwards {
-    width: 3em;
+    width: 7em;
     text-align: center;
     background-color: red;
     line-height: 7em;
     border-radius: 50%;
     display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: all 1000ms ease-in-out;
 }
 
+.middle {
+    text-align: center;
+
+}
